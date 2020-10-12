@@ -18,6 +18,7 @@ class CreateVideosTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->text('embed');
+            $table->string('thumbnail');
             $table->unsignedBigInteger('playlist_id');
             $table->foreign('playlist_id')->references('id')->on('playlists')->cascadeOnDelete();
             $table->timestamps();

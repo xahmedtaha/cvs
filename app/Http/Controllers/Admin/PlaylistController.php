@@ -45,7 +45,7 @@ class PlaylistController extends Controller
             'thumbnail' => 'image|sometimes|nullable',
         ]);
         if($request->exists('thumbnail')){
-            $data['thumbnail'] = $data['thumbnail']->storePublicly('playlists/thumbnails');
+            $data['thumbnail'] = $data['thumbnail']->store('public/playlists/thumbnails');
         }else{
             unset($data['thumbnail']);
         }
@@ -55,6 +55,6 @@ class PlaylistController extends Controller
 
     public function delete(Playlist $playlist){
         $playlist->delete();
-        return back()->with('deleted', true);
+        return redirect()->route('admin.playlist.index')->with('deleted', true);
     }
 }

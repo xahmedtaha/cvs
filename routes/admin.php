@@ -69,6 +69,22 @@
        Route::delete('/{playlist}', [\App\Http\Controllers\Admin\PlaylistController::class, 'delete'])->name('delete');
     });
 
+    Route::middleware('auth:admin')->prefix('videos')->name('admin.video.')->group(function(){
+        Route::post('/', [\App\Http\Controllers\Admin\VideoController::class, 'create'])->name('create');
+        Route::put('/{video}', [\App\Http\Controllers\Admin\VideoController::class, 'update'])->name('update');
+        Route::delete('/{video}', [\App\Http\Controllers\Admin\VideoController::class, 'delete'])->name('delete');
+    });
+
+    // Articles
+    Route::middleware('auth:admin')->prefix('articles')->name('admin.article.')->group(function(){
+        Route::get('/', [\App\Http\Controllers\Admin\ArticleController::class, 'index'])->name('index');
+        Route::get('/create', [\App\Http\Controllers\Admin\ArticleController::class, 'create'])->name('create');
+        Route::post('/create', [\App\Http\Controllers\Admin\ArticleController::class, 'store'])->name('create');
+        Route::get('/{article}', [\App\Http\Controllers\Admin\ArticleController::class, 'edit'])->name('edit');
+        Route::put('/{article}', [\App\Http\Controllers\Admin\ArticleController::class, 'update'])->name('update');
+        Route::delete('/{article}', [\App\Http\Controllers\Admin\ArticleController::class, 'delete'])->name('delete');
+    });
+
     Route::fallback(function () {
         return abort(404);
     });

@@ -1,7 +1,7 @@
 @extends('multiauth::layouts.app')
 
 @section('content')
-    <div class="row container mx-auto items-center w-100">
+    <div class="row px-4 mx-auto items-center w-100">
         <div class="col">
             <div class="card shadow">
                 <div class="card-header border-0">
@@ -81,7 +81,7 @@
                                                                 <input required name="name" class="form-control mb-1" placeholder="Playlist Title" type="text">
                                                             </div>
                                                             <div class="form-group mb-3">
-                                                                <label>Playlist Description</label>
+                                                                <label>Description</label>
                                                                 <textarea required rows="8" name="description" class="form-control mb-1" placeholder="Playlist Description"></textarea>
                                                             </div>
                                                             <div class="form-group mb-3">
@@ -107,10 +107,12 @@
                                 <th scope="row">
                                     <div class="media align-items-center">
                                         <a class="mr-3">
-                                            <div class="rounded" style="width: 150px; height: 100px; background-image: url({{Storage::url($playlist->thumbnail)}}); background-position: center; background-repeat: no-repeat; background-size: cover"></div>
+                                            <div class="rounded border" style="width: 150px; height: 100px; background-image: url({{Storage::url($playlist->thumbnail)}}); background-position: center; background-repeat: no-repeat; background-size: cover"></div>
                                         </a>
                                         <div class="media-body">
-                                            <span class="name mb-0 text-sm">{{$playlist->name}}</span>
+                                            <span class="name mb-0 text-sm">
+                                                <a href="{{route('admin.playlist.show', $playlist->id)}}">{{$playlist->name}}</a>
+                                            </span>
                                         </div>
                                     </div>
                                 </th>
@@ -118,7 +120,7 @@
                                     {{\Illuminate\Support\Str::limit($playlist->description, 30)}}
                                 </td>
                                 <td>{{$playlist->created_at->toDateString()}}</td>
-                                <td class="playlist">
+                                <td>
                                     <div class="dropdown">
                                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fas fa-ellipsis-v"></i>

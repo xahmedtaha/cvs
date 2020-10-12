@@ -7,8 +7,9 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    @stack('meta')
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Laravel') }} | @yield('title', 'Home')</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -17,7 +18,7 @@
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
-    @stack('js')
+
 </head>
 <body class="antialiased">
     @include('layouts.partials.navbar')
@@ -31,5 +32,6 @@
             once: true
         });
     </script>
+    @stack('js')
 </body>
 </html>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fa61fdeb8026a65f51887f987b42150",
+    "content-hash": "7a28d247159231f22a527ce44ef25108",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -57,64 +57,6 @@
                 "stack"
             ],
             "time": "2020-05-31T07:17:05+00:00"
-        },
-        {
-            "name": "austintoddj/canvas",
-            "version": "v6.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/austintoddj/canvas.git",
-                "reference": "2fe4ac3ff9062289c678f72a83a9e106ee9830c8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/austintoddj/canvas/zipball/2fe4ac3ff9062289c678f72a83a9e106ee9830c8",
-                "reference": "2fe4ac3ff9062289c678f72a83a9e106ee9830c8",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^6.0|^7.0|^8.0",
-                "php": "^7.3"
-            },
-            "require-dev": {
-                "ext-json": "*",
-                "laravel/legacy-factories": "^1.0",
-                "mockery/mockery": "^1.4",
-                "orchestra/testbench": "^4.0|^5.0|^6.0",
-                "phpunit/phpunit": "^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Canvas\\CanvasServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Canvas\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Todd Austin",
-                    "email": "austin.todd.j@gmail.com"
-                }
-            ],
-            "description": "A Laravel publishing platform",
-            "homepage": "https://trycanvas.app",
-            "keywords": [
-                "canvas",
-                "laravel",
-                "platform",
-                "publishing"
-            ],
-            "time": "2020-09-21T13:44:14+00:00"
         },
         {
             "name": "bitfumes/laravel-multiauth",

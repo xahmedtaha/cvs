@@ -17,6 +17,8 @@
     <!-- Argon CSS -->
     <link rel="stylesheet" href="{{asset('argon/css/argon.css?v=1.2.0')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('argon/css/custom/main.css')}}" type="text/css">
+
+    @stack('css')
 </head>
 
 <body>
@@ -55,4 +57,6 @@
 {{--<script src="{{asset('argon/vendor/chart.js/dist/Chart.extension.js')}}"></script>--}}
 <!-- Argon JS -->
 <script src="{{asset('argon/js/argon.js?v=1.2.0')}}"></script>
+
+@stack('js')
 </body>

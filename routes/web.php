@@ -13,16 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/blog', function () {
-    return view('blog');
-});
-Route::get('/article', function () {
-    return view('article');
-});
+Route::view('/', 'home')->name('home');
 
-Route::get('/blog/{slug}', function ($slug){
-    return view('article')->with('article', \Canvas\Models\Post::where('slug', $slug)->firstOrFail());
-})->name('post');
+Route::get('/articles', [\App\Http\Controllers\ArticleController::class, 'index'])->name('articles.index');
+Route::get('/articles/{article}', [\App\Http\Controllers\ArticleController::class, 'show'])->name('articles.show');
+
+Route::get('/playlists', [\App\Http\Controllers\PlaylistController::class, 'index'])->name('playlists.index');
+Route::get('/playlists/{playlist}', [\App\Http\Controllers\PlaylistController::class, 'show'])->name('playlists.show');
+
+Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'message'])->name('message.send');
