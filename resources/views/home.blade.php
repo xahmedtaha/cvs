@@ -565,9 +565,9 @@
                         <button type="submit" class="focus:shadow-outline-orange transition duration-100 flex mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Submit</button>
                     </div>
                     <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                        <a href="mailto:curriculum.vitae.schools@outlook.com" class="text-orange-500">curriculum.vitae.schools@outlook.com</a>
+                        <a href="mailto:cvshrs120@gmail.com" class="text-orange-500">cvshrs120@gmail.com</a>
                         <br>
-                        <a href="tel:01029939466" class="text-orange-500 mt-2">01029939466</a>
+                        <a href="tel:01557365784" class="text-orange-500 mt-2">01557365784</a>
                         <p class="leading-normal my-5">Egypt, Cairo
                         </p>
                         <span class="inline-flex">
