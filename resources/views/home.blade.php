@@ -318,7 +318,7 @@
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Board of Directors/Hazem Mohamed - Vice Chairwoman.jpg')}}">
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Hazem Mohamed</h2>
-                            <p class="text-gray-500">Vice Chairwoman</p>
+                            <p class="text-gray-500">Vice Chairman</p>
                         </div>
                     </div>
                 </div>
@@ -562,7 +562,7 @@
                         @enderror
                     </div>
                     <div class="p-2 w-full">
-                        <button type="submit" class="focus:shadow-outline-orange transition duration-100 flex mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
+                        <button type="submit" class="focus:shadow-outline-orange transition duration-100 flex mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Submit</button>
                     </div>
                     <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                         <a href="mailto:curriculum.vitae.schools@outlook.com" class="text-orange-500">curriculum.vitae.schools@outlook.com</a>
