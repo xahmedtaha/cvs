@@ -5,7 +5,7 @@
             {{--            <span class="ml-3 text-xl text-orange-500 font-bold">CVS</span>--}}
         </a>
         <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© {{now()->year}} CVS  —
-            Developed &amp; Designed By <a href="https://mostaql.com/u/xahmedtaha" class="text-gray-600 ml-1 text-blue-500 hover:text-blue-700 transition duration-100" rel="noopener noreferrer" target="_blank">@ahmedtaha</a>
+            Developed &amp; Designed By <a href="https://www.facebook.com/profile.php?id=100053102670919" class="text-gray-600 ml-1 text-blue-500 hover:text-blue-700 transition duration-100" rel="noopener noreferrer" target="_blank">@ahmedtaha</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a class="text-gray-500">
