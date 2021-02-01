@@ -31,6 +31,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {{url()->current() !== route('admin.articles.index') ?: 'active'}}" href="{{route('admin.articles.index')}}">
+                            <i class="fas fa-edit text-muted"></i>
+                            <span class="nav-link-text">Articles</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link  {{url()->current() !== route('admin.show') ?: 'active'}}" href="{{route('admin.show')}}">
                             <i class="fas fa-users text-blue"></i>
                             <span class="nav-link-text">Admins</span>
