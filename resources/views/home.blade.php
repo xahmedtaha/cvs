@@ -300,16 +300,7 @@
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Board of Directors/Motasem Mahran - Founder.jpg')}}">
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Motasem Mahran</h2>
-                            <p class="text-gray-500">Founder</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="200">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Board of Directors/Rana Khalid - Chairwoman.jpg')}}">
-                        <div class="flex-grow">
-                            <h2 class="text-gray-900 title-font font-medium">Rana Khalid</h2>
-                            <p class="text-gray-500">Chairwoman</p>
+                            <p class="text-gray-500">Chairman</p>
                         </div>
                     </div>
                 </div>
@@ -335,16 +326,16 @@
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Board of Directors/Rawda Khaled - CQO.jpg')}}">
                         <div class="flex-grow">
-                            <h2 class="text-gray-900 title-font font-medium">Rawda Khalid</h2>
+                            <h2 class="text-gray-900 title-font font-medium">Rawda Khaled</h2>
                             <p class="text-gray-500">CQO</p>
                         </div>
                     </div>
                 </div>
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="600">
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Board of Directors/AlaaEldin Manaa - CCO.jpeg')}}">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/PR/Maha Sharif - CCO.jpg')}}">
                         <div class="flex-grow">
-                            <h2 class="text-gray-900 title-font font-medium">Alaa Eldin Manaa</h2>
+                            <h2 class="text-gray-900 title-font font-medium">Maha Sheriff</h2>
                             <p class="text-gray-500">CCO</p>
                         </div>
                     </div>
@@ -382,15 +373,6 @@
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Ehab Khater</h2>
                             <p class="text-gray-500">Head PR</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="1100">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/PR/Maha Sharif - Vice Head PR.jpg')}}">
-                        <div class="flex-grow">
-                            <h2 class="text-gray-900 title-font font-medium">Maha Sheriff</h2>
-                            <p class="text-gray-500">Vice Head PR</p>
                         </div>
                     </div>
                 </div>
