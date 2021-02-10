@@ -442,9 +442,9 @@
                 </div>
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="1500">
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Media/Abdullah El Afifi - Chief Multimedia.jpg')}}">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Media/Rawan Ahmed - Chief Multimedia .jpeg')}}">
                         <div class="flex-grow">
-                            <h2 class="text-gray-900 title-font font-medium">Abdullah El Afifi</h2>
+                            <h2 class="text-gray-900 title-font font-medium">Rawan Ahmed</h2>
                             <p class="text-gray-500">Chief Multimedia</p>
                         </div>
                     </div>
@@ -453,7 +453,7 @@
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Media/mohamed.jpeg')}}">
                         <div class="flex-grow">
-                            <h2 class="text-gray-900 title-font font-medium">Mohamed Nahed</h2>
+                            <h2 class="text-gray-900 title-font font-medium">Mohamed Maher</h2>
                             <p class="text-gray-500">Head Graphic Design</p>
                         </div>
                     </div>
@@ -463,6 +463,15 @@
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Media/Seif Eldein Walid - Vice Head Graphic Design.jpg')}}">
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Seif Eldeen Waleed</h2>
+                            <p class="text-gray-500">Vice Head Graphic Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="1700">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Media/Motassem.jpeg')}}">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Motassem Ashraf</h2>
                             <p class="text-gray-500">Vice Head Graphic Design</p>
                         </div>
                     </div>
@@ -481,6 +490,15 @@
                         <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Marketing/Nourseen Mosad - Head Markting.jpg')}}">
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Nourseen Mosaad</h2>
+                            <p class="text-gray-500">Head Marketing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="1900">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Marketing/Fatma Hossam - Vice Marketing .jpeg')}}">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Fatma Hossam</h2>
                             <p class="text-gray-500">Head Marketing</p>
                         </div>
                     </div>
