@@ -4,6 +4,7 @@
             <a href="{{route('home')}}" class="mr-5 hover:text-gray-900 {{url()->current() !== route('home') ?: 'text-orange-500 border-b-2 border-orange-500'}}">Home</a>
             <a href="{{route('articles.index')}}" class="mr-5 hover:text-gray-900 {{url()->current() !== route('articles.index') ?: 'text-orange-500 border-b-2 border-orange-500'}}">Blog</a>
             <a href="{{route('playlists.index')}}" class="mr-5 hover:text-gray-900 {{url()->current() !== route('playlists.index') ?: 'text-orange-500 border-b-2 border-orange-500'}}">Playlists</a>
+            <a href="{{route('livesandsessions.index')}}" class="mr-5 hover:text-gray-900 {{url()->current() !== route('livesandsessions.index') ?: 'text-orange-500 border-b-2 border-orange-500'}}">Lives and sessions</a>
         </nav>
         <a href="{{route('home')}}" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
             <img src="{{asset('img/logo.png')}}" class="object-cover object-center rounded h-13 w-13">
