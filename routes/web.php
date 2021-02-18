@@ -21,4 +21,7 @@ Route::get('/articles/{article}', [\App\Http\Controllers\ArticleController::clas
 Route::get('/playlists', [\App\Http\Controllers\PlaylistController::class, 'index'])->name('playlists.index');
 Route::get('/playlists/{playlist}', [\App\Http\Controllers\PlaylistController::class, 'show'])->name('playlists.show');
 
+Route::get('/livesandsessions', [\App\Http\Controllers\liveController::class, 'index'])->name('livesandsessions.index');
+Route::get('/livesandsessions/{livesandsessions}', [\App\Http\Controllers\liveController::class, 'show'])->name('livesandsessions.show');
+
 Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'message'])->name('message.send');
