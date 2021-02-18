@@ -397,12 +397,12 @@
                 </div>
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="1000">
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/PR/Salma Youssef - Vice PR.jpeg')}}">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/PR/Salma Youssef  - Vice PR.jpeg')}}">
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Salma Youssef</h2>
                             <p class="text-gray-500">Vice Head PR</p>
                         </div>
-                    </div>img/highboard/PR/Salma Youssef - Vice PR.jpeg
+                    </div>
                 </div>
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="1200">
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
@@ -514,7 +514,7 @@
                 </div>
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full" data-aos="fade-in" data-aos-delay="2100">
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Content writing/Zeyad Abdullah - Head Content Writing .jpeg')}}">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 border" src="{{asset('img/highboard/Content writing/Zeyad Abdullah  -  Head Content Writing .jpeg')}}">
                         <div class="flex-grow">
                             <h2 class="text-gray-900 title-font font-medium">Zeyad Abdullah</h2>
                             <p class="text-gray-500">Head Content Writing</p>
